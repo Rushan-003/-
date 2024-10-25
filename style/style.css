@@ -35,6 +35,10 @@ h2 {
     font-weight: 700;
     font-size: 48px;
 }
+h3 {
+    font-weight: 600;
+    font-size: 28px;
+}
 
 a {
     color: var(--accent);
@@ -50,6 +54,7 @@ footer {
     background-color: var(--dark);
     padding: 0px 130px;
     padding-top: 56px; 
+    color: var(--light);
 }
 
 .header_top {
@@ -91,4 +96,39 @@ footer {
 .phone {
     width: 16px;
     height: 16px;
+}
+
+.company {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.block_company_picture {
+    display: flex;
+    justify-content: space-between;
+}
+
+.company_picture {
+    width: 580px;
+    height: 280px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.news {
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    gap: 20px;
+}
+
+.news_picture {
+    width: 380px;
+    height: 251px;
+}
+
+.element_news {
+    background-color: var(--light-gray);
 }
