@@ -16,13 +16,24 @@ body{
     font-size: 16px;
     color: var(--dark);
     line-height: 120%;
-
-    padding: 35px 130px 0px 130px;
+    padding-top: 35px;
+    
+}
+header {
+    padding: 0px 130px;
+}
+main, section {
+    margin-top: 80px;
+    padding: 0px 130px;
 }
 h1 {
     font-weight: 700;
     font-size: 60px;
     line-height: 120%;
+}
+h2 {
+    font-weight: 700;
+    font-size: 48px;
 }
 
 a {
@@ -33,6 +44,12 @@ a {
 ul {
     list-style-type: none;
     padding: 0px;
+}
+
+footer {
+    background-color: var(--dark);
+    padding: 0px 130px;
+    padding-top: 56px; 
 }
 
 .header_top {
