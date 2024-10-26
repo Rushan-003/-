@@ -26,6 +26,12 @@ main, section {
     margin-top: 80px;
     padding: 0px 130px;
 }
+
+.text_main {
+    display: flex;
+    gap: 100px;
+    align-items: center;
+}
 h1 {
     font-weight: 700;
     font-size: 60px;
@@ -117,6 +123,12 @@ footer {
 .products {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    /* align-items: center; */
+}
+.product {
+    background-color: var(--light-gray);
+    padding: 32px 24px;
 }
 .news {
     display: grid;
@@ -128,7 +140,20 @@ footer {
     width: 380px;
     height: 251px;
 }
+.element_news_bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
 
 .element_news {
     background-color: var(--light-gray);
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.nav_footer {
+    display: flex;
+    gap: 57px;
 }
