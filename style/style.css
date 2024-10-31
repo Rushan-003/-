@@ -140,7 +140,9 @@ footer {
 .news {
     display: grid;
     grid-template-columns: repeat(3, auto);
-    gap: 20px;
+    /* gap: 20px; */
+    justify-content: space-between;
+    margin-bottom: 80px;
 }
 
 .news_picture {
@@ -151,10 +153,12 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 80px;
 }
 
 .element_news {
     background-color: var(--light-gray);
+    max-width: 380px;
 }
 .footer {
     display: flex;
@@ -186,4 +190,8 @@ footer {
     text-align: center;
     margin: 0px;
     padding: 72px 0px 24px 0px;
+}
+
+.element_news-margin {
+    margin: 0px 16px;
 }
