@@ -179,7 +179,8 @@ footer {
 }
 
 .picture_1 {
-    max-width: 1660px;
+    display: block;
+    margin: auto;
 }
 
 .element_header_menu {
@@ -194,4 +195,9 @@ footer {
 
 .element_news-margin {
     margin: 0px 16px;
+}
+
+.map {
+    display: block;
+    margin: auto;
 }
